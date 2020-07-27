@@ -12,12 +12,12 @@
 nav.navbar.navbar-expand-md.ml-2.navbar-color {
     padding: 1.5rem 2rem ;
 }
-.navbar-item a
+.nav-item a
 {
   color:#000a2d;
   font-size:16px; 
 }
-.navbar-item a:hover
+.nav-item a:hover
 {
 
  color:red;
@@ -30,7 +30,7 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
 
           
 
-.navbar-item:hover .dropdown-menu
+.nav-item:hover .dropdown-menu
 { 
  display:block;
 }
