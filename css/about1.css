@@ -1,0 +1,334 @@
+body {
+  
+  margin: 0;
+  font-family:"Rubik",sans-serif;
+  padding:0;
+ 
+  
+}
+
+.navbar-color
+{
+ background-color:white;
+
+}
+#logo
+{
+ color:#000a2d;
+ font-size:25px;
+}
+.nav-item a
+{
+  color:#000a2d;
+ font-size:1rem; 
+}
+.nav-item a:hover
+{
+
+ color:#ff6600;
+ font-size:18px;
+}
+.custom-toggler.navbar-toggler 
+{ 
+  border-color: #ff9900; 
+}         
+.nav-item:hover .dropdown-menu
+{ 
+ display:block;
+}
+.navbar-nav li
+{
+ margin-left:20px;
+ font-weight:bold;
+
+}
+#navbtn
+{
+ background-color:#ff6600;
+ margin-left:120px;
+ color:white;
+ font-weight:bold;
+ border-radius:10px;
+ padding:15px;
+}
+#navbtn:hover
+{
+ text-decoration:none;
+}
+@media screen and (max-width:1200px)
+{
+ #navbtn
+{
+ display:none;
+}
+}
+
+.navbar .navbar-toggler .icon-bar
+{
+ background-color:white;
+ color: #ff6600;
+}
+.navbar-toggler:focus + .navbar-color
+{
+ height:500px;
+}
+.banner1
+{
+ background-image:url("../img/hero2.jpg");
+ background-size: cover;
+ height:400px;
+ width:100%;
+ padding:145px 0px 0px 100px;
+}
+.banner1 h1
+{
+ font-size:3.125rem;
+ font-family: 'Sawarabi Mincho', sans-serif;
+ font-weight:0.5rem;
+ 
+}
+ol.breadcrumb
+{
+ background-color:transparent;
+ color:red;
+}
+
+.breadcrumb-item a
+{
+ color:#ff6600;
+ font-size:1.25rem;
+ 
+}
+.breadcrumb-item a:hover
+{
+ text-decoration:none;
+ color:#ff6600;
+}
+
+.aboutme-img
+{
+ 
+padding-right:70px;
+
+}
+@media screen and (max-width:563px)
+{
+ .aboutme-img
+{
+ margin:0px;
+ padding:30px 10px;
+}
+}
+
+
+.aboutme-head
+{
+ font-size:3.125rem;
+ font-family: 'Sawarabi Mincho', sans-serif;
+ font-weight:bold;
+ padding:20px 10px;
+}
+.aboutme-para
+{
+ font-size:1.0625rem;
+ margin-top:20px;
+ line-height:1.7;
+ font-family: 'Montserrat', sans-serif;
+}
+.aboutme-middle
+{
+ border-left:3px solid #ff6600;
+ padding-left:25px;
+ margin-top:40px;
+}
+#row1right
+{
+ 
+ margin-left:4 %;
+}
+
+#row1right h2
+{
+ text-align:justify;
+ font-weight:700;
+ word-spacing:1px;
+ font-family: 'Cuprum', sans-serif;
+ margin-top:100px;
+ 
+}
+#row1right p
+{
+ margin-top:3%;
+ font-family:"Rufina",serif;
+ font-weight:lighter;
+ text-align: justify;
+ font-size:20px;
+}
+#row2right
+{ 
+ margin-left:12%;
+}
+#row2right h1
+{
+ 
+ font-weight:bold;
+ word-spacing:1px;
+ margin-top:60px;
+ font-family: 'Cuprum', sans-serif;
+}
+#row2right h2
+{
+ text-decoration:underline;
+}
+.banner3
+{
+ background-image:url("../img/section_bg02.jpg");
+ width:100%;
+ height:400px;
+ background-size:cover;
+ background-repeat:no-repeat; 
+ margin-top:10%;
+ padding-top:11%;
+
+}
+#banner3text
+{
+ color:#ff8533;
+ margin-left:14%;
+}
+#banner3button
+{
+  color:white;
+  font-weight:bold;
+  padding:9px 35px;
+  background-color:#ff8533;
+  margin-top:18%;
+ 
+}
+.banner4
+{
+ background-image:url(../img/section_bg04.jpg);
+ width:100%;
+ height:700px;
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat; 
+ margin-top:10%;
+ padding-top:7%;
+
+}
+.banner4 h1
+{
+ margin-top:6%;
+ font-size:42px;
+ margin-left:15%;
+}
+.banner4 p
+{
+ margin:40px 80px;
+}
+.banner4 img
+{
+ margin:70px 70px;
+}
+.col2
+{
+  margin:20px 50px;
+}
+input[type=text] {
+  border: none;
+  background-color: none;
+  outline: 0;
+  font-size: 18px;
+  width: 500px;
+  height: 50px;
+  margin-top:3%;
+  padding-left:25px;
+}
+
+#comment 
+{ 
+    border: none; 
+    border-color:none; 
+    outline:0;
+    margin-top:5%; 
+    font-size:18px; 
+    padding-top:30px;
+    padding-left:25px;  
+    width: 500px;    
+}
+.col2 a
+{
+ margin-top:5%;
+ background-color:#ff6600;
+ padding:10px 30px;
+ width:500px;
+ color: #ffffff;
+}
+@media screen and (max-width:1194px) 
+{
+ input[type=text] 
+ {
+  width: 350px;   
+ }
+ #comment 
+  { 
+    width: 350px;    
+  }
+  .col2 a
+  {
+   width: 350px;    
+  }
+
+}
+.bottom
+{
+ background-color:#080827;
+ padding-top:7%;
+ font-family: 'Sawarabi Mincho', sans-serif;
+}
+.image
+{
+ text-align:center;
+}
+.footercontent h1
+{
+ margin-top:2%;
+ color:white;
+ text-align:center;
+}
+.footercontent h1:hover
+{
+ text-decoration:none;
+ 
+}
+.footercontent p
+{
+ margin-top:2%;
+ color:white;
+ font-size:1.25rem;
+ text-align:center;
+}
+footer
+{
+  color: #595959;
+ font-weight:lighter;
+ font-size:1rem;
+ margin-top:10%;
+ padding-left:6%;
+}
+.socialmedia
+{
+ margin-left:30%;
+}
+.fa
+{
+ color:#cccccc;
+ margin-left:0.5%;
+}
+.fa:hover
+{
+ color:#cccccc;
+ text-decoration:none;
+}
+
