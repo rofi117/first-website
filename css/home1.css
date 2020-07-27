@@ -202,7 +202,7 @@
  z-index:-1;
  left:0;
  bottom:0;
- background-color:#ff6600;
+ background-color:#ffe8df;
  transition:.3s ease-in;
 }
 .elecol1:hover:before,.elecol2:hover:before,.elecol3:hover:before
