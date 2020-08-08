@@ -23,11 +23,10 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
  color:red;
  font-size:18px;
 }
-.custom-toggler.navbar-toggler 
-{ 
-  border-color: #ff9900; 
-} 
-
+button.navbar-toggler.ml-auto
+{
+  border:1px solid #ff6600;
+}
           
 
 .nav-item:hover .dropdown-menu
@@ -65,19 +64,24 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
 .banner 
 {
   background-image:url("../img/h1_hero.jpg");
-  height: 450px;
+  height: 550px;
   background-position: center;
   background-size: cover;
   position: relative;
-  padding-top:5%;
+  padding:6rem 0rem;
+  font-family: 'Almendra', serif;
   
+}
+.banner h1
+{ 
+ font-size:4.375rem;
 }
 
 .text-animation {
   position:relative;
   animation-name: animation;
   animation-duration: 1s;
- 
+  
 }
 .banner h5
 {
@@ -134,11 +138,13 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
 #button2:hover::before
 {
  width:100%;
+ color:white;
 }
 .imagenext
 {
   margin-top:15%;
 }
+
 #row1right h2
 {
  font-weight:700;
@@ -153,6 +159,26 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
  font-weight:lighter;
  text-align: justify;
  font-size:20px;
+}
+#row2right
+{
+ margin-left:90px;
+}
+@media screen and (max-width:1206px)
+{
+ #row2right
+{
+ margin-left:40px;
+}
+
+}
+@media screen and (max-width:600px)
+{
+ #row2right
+{
+ margin-left:-6px;
+}
+
 }
 #row2right h1
 {
@@ -288,26 +314,42 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
 }
 .banner4 h1
 {
- font-size:42px;
+ font-size:2.625rem;
 }
 .banner4 p
 {
  margin:40px 80px;
 }
+@media screen and (max-width:600px)
+{
+ .banner4 h1
+ {
+  font-size:1.625rem;
+ }
+ #banner3text
+ {
+  font-size:1.375rem;
+ }
+ .banner3
+ {
+  height:300px;
+  }
+ #banner3text
+ {
+   margin-left:2%;
+ }  
+}
 .banner4 img
 {
  margin:70px 70px;
 }
-.col2
-{
-  margin:20px 50px;
-}
+
 input[type=text] {
   border: none;
   background-color: none;
   outline: 0;
   font-size: 18px;
-  width: 500px;
+  
   height: 50px;
   margin-top:3%;
   padding-left:25px;
@@ -322,30 +364,12 @@ input[type=text] {
     font-size:18px; 
     padding-top:30px;
     padding-left:25px;  
-    width: 500px;    
+    
 }
-.col2 a
+a.btn.form-btn
 {
  margin-top:5%;
  background-color:#ff6600;
- padding:10px 30px;
- width:500px;
- color: #ffffff;
-}
-@media screen and (max-width:1194px) 
-{
- input[type=text] 
- {
-  width: 350px;   
- }
- #comment 
-  { 
-    width: 350px;    
-  }
-  .col2 a
-  {
-   width: 350px;    
-  }
-
+  color: #ffffff;
 }
 
