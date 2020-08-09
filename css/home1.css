@@ -1,16 +1,17 @@
- body, html {
+body, html 
+{
   height: 100%;
   margin: 0;
   font-family:"Rubik",sans-serif;
 }
 
-#logo
+nav.navbar.navbar-expand-md.ml-2 
 {
- color:#000a2d;
- font-size:25px;
-}
-nav.navbar.navbar-expand-md.ml-2.navbar-color {
     padding: 1.5rem 2rem ;
+}
+.navbar-brand img
+{
+  width:200px;
 }
 .nav-item a
 {
@@ -19,16 +20,13 @@ nav.navbar.navbar-expand-md.ml-2.navbar-color {
 }
 .nav-item a:hover
 {
-
- color:red;
+ color:#ff6600;
  font-size:18px;
 }
 button.navbar-toggler.ml-auto
 {
   border:1px solid #ff6600;
 }
-          
-
 .nav-item:hover .dropdown-menu
 { 
  display:block;
@@ -47,11 +45,7 @@ button.navbar-toggler.ml-auto
  border-radius:10px;
  padding:10px;
 }
-#imgcenter
-{
- width:100%;
- height:380px;
-}
+
 @media  screen and (max-width:1200px)
 {
 #navbtn
@@ -104,8 +98,7 @@ button.navbar-toggler.ml-auto
 }
 .animation-left
 {
- 
- position:relative;
+  position:relative;
  animation-name:left;
  animation-duration:1s;
 }
@@ -149,7 +142,8 @@ button.navbar-toggler.ml-auto
 {
  font-weight:700;
  text-align: justify;
- word-spacing:1px;
+ word-spacing:-2px;
+ text-align:center;
  
 }
 #row1right p
@@ -172,14 +166,7 @@ button.navbar-toggler.ml-auto
 }
 
 }
-@media screen and (max-width:600px)
-{
- #row2right
-{
- margin-left:-6px;
-}
 
-}
 #row2right h1
 {
  
@@ -197,7 +184,6 @@ button.navbar-toggler.ml-auto
   position:relative;
   background-position:center;
   background-size:cover;
-
 }
 @media  screen and (max-width:760px)
 {
@@ -214,9 +200,8 @@ button.navbar-toggler.ml-auto
 
 #element
 {
-  margin-top:5%;
-  margin-left:5%;
-}
+  margin:5% 5% 0% 5%;
+ } 
 .elecol1,.elecol2,.elecol3
 {
  z-index:1;
@@ -242,40 +227,43 @@ button.navbar-toggler.ml-auto
 {
  margin-top:10%;
 }
-#list h1
-{
- margin-left:80px;
-}
 #list1
 {
  margin-top:6%;
+ padding:0px  30px 0px 70px;
 }
+@media screen and (max-width:977px)
+{ 
+ #list1
+ {
+ padding:0px 0px 0px 90px; 
+ }
+}
+#list h1
+{
+ margin-left:100px;
+}
+
 #list2
 {
  margin-top:2%;
 }
 .navitem2
 {
- border-bottom:1px solid #d9d9d9;
+ border-bottom:1px solid #e4e3e3;
 }
-@media screen and (max-width:990)
-{
- .navitem2
- {
-   margin-left:3%;
- }
-}
-.navlink2
+
+a.navlink2
 {
  color:black;
  font-weight:bold;
- font-size:15px;
- text-decoration:none;
- margin-left:8px;
+ font-size:1rem;
+  margin-left:8px;
 }
 .navlink2:hover
 {
- border-bottom:3px solid red;
+  border-bottom:2px solid red;
+  font-size:1rem;
 }
 .banner3
 {
@@ -320,25 +308,7 @@ button.navbar-toggler.ml-auto
 {
  margin:40px 80px;
 }
-@media screen and (max-width:600px)
-{
- .banner4 h1
- {
-  font-size:1.625rem;
- }
- #banner3text
- {
-  font-size:1.375rem;
- }
- .banner3
- {
-  height:300px;
-  }
- #banner3text
- {
-   margin-left:2%;
- }  
-}
+
 .banner4 img
 {
  margin:70px 70px;
@@ -349,7 +319,6 @@ input[type=text] {
   background-color: none;
   outline: 0;
   font-size: 18px;
-  
   height: 50px;
   margin-top:3%;
   padding-left:25px;
@@ -372,4 +341,86 @@ a.btn.form-btn
  background-color:#ff6600;
   color: #ffffff;
 }
+@media screen and (max-width:480px)
+{
+ .navbar-brand img
+ {
+  width:180px;
+ }
+ nav.navbar.navbar-expand-md.ml-2 
+ {
+    padding: 1.5rem 0.5rem ;
+ }
+ .banner 
+ {
+  padding:3rem 0rem;
+ }
+ .banner h1
+ { 
+  font-size:3.375rem;
+ }
+ .banner h5
+ {
+  margin-top:-5%;
+ }
+ #row1right h2
+ {
+   font-size:1.375rem;
+ }
+ #row2right h1
+ {
+  font-size:1.375rem;
+ }
+ 
+ #row2right
+ {
+ margin-left:-6px;
+ }
+ #row2right h2
+ {
+  font-size:1.45rem;
+ }
+ .banner2 h1
+ {
+  margin-left:30px;
+  font-size:1.475rem;
+ }
+ #list h1
+ {
+   margin-left:30px;
+  font-size:1.475rem;
+ }
+ #list1
+ {
+ padding:0px  50px 0px 50px; 
+ }
+ a.navlink2
+ {
+   font-size:0.9rem;
+ }
 
+ #banner3text
+ {
+  font-size:1.375rem;
+  text-align:center;
+   margin-left:2%;
+ }
+ .banner3
+ {
+  height:300px;
+  }
+  .banner4 h1
+  {
+    font-size:1.625rem;
+  }
+  .banner4 p
+  {
+    margin:40px 40px;
+  }
+  .banner4 img
+ {
+   margin:20px 30px 50px;
+ }
+
+ 
+}
